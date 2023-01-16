@@ -1,5 +1,20 @@
 # Python Music Teacher
 
+## Navigating the README
+- [Python Music Teacher](#python-music-teacher)
+  - [Navigating the README](#navigating-the-readme)
+  - [Description](#description)
+  - [Installation](#installation)
+    - [Cloning the repository](#cloning-the-repository)
+    - [Installing the package](#installing-the-package)
+    - [Dependencies](#dependencies)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Troubleshooting](#troubleshooting)
+    - [PyAudio](#pyaudio)
+  - [License](#license)
+
+
 ## Description
 
 A Python package for teaching music theory and note knowledge.
@@ -11,11 +26,45 @@ The program will then give the user feedback on how well they did and show them 
 
 ## Installation
 
+### Cloning the repository
+
+```bash
+git clone https://github.com/DylanKirbs/MusicTeacher.git
+
+cd MusicTeacher
+
+chmod +x install.sh
+
+./install.sh
+```
+
+### Installing the package
+
+```bash
+pip install music-teacher
+```
+
+### Dependencies
+
+- Python 3.6 or higher
+- PyAudio (which may require additional installation steps)
+- Git (for cloning the repository)
+
+If you encounter errors installing the dependencies, please see the [Troubleshooting](#troubleshooting) section.
+
 ## Usage
+
+Nothing here yet...
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
+## Troubleshooting
+
+### PyAudio
+
+If you get pip errors when installing PyAudio, check out the [PyAudio documentation](https://people.csail.mit.edu/hubert/pyaudio/#downloads) for more information. Or the [PyPi](https://pypi.org/project/PyAudio/) page.
 
 ## License
 
