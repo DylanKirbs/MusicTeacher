@@ -1,5 +1,6 @@
-from audio import converter
 import os
+
+from audio import converter
 
 for file in os.listdir("audio"):
     if file.endswith(".py") or os.path.isdir(f"audio/{file}"):

@@ -1,6 +1,7 @@
-from pydub import AudioSegment
 import sys
 from os import path
+
+from pydub import AudioSegment
 
 
 def convertSoundFile(input:str, output:str) -> None:
